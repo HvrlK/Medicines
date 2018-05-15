@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var registrationButton: UIButton!
     
     // MARK: - Methods
     
@@ -28,6 +29,7 @@ class LoginViewController: UIViewController {
         usernameTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
         passwordTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
         loginButton.layer.cornerRadius = 8
+        registrationButton.layer.cornerRadius = 8
         updateLoginButton()
     }
     
@@ -81,7 +83,7 @@ class LoginViewController: UIViewController {
     // MARK: Actions
     
     @IBAction func loginButtonTapped() {
-        
+//        
     }
     
 }
