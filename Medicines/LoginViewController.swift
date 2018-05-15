@@ -17,7 +17,7 @@ class LoginViewController: UIViewController {
     
     // MARK: - Outlets
     
-    @IBOutlet weak var usernameTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var registrationButton: UIButton!
@@ -26,11 +26,11 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        usernameTextField.delegate = self
+        emailTextField.delegate = self
         passwordTextField.delegate = self
         let tap = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         view.addGestureRecognizer(tap)
-        usernameTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
+        emailTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
         passwordTextField.addTarget(self, action: #selector(textFieldDidChange), for: .editingChanged)
         loginButton.layer.cornerRadius = 8
         registrationButton.layer.cornerRadius = 8
@@ -46,7 +46,7 @@ class LoginViewController: UIViewController {
     }
     
     func updateLoginButton() {
-        if usernameTextField.text != "" && passwordTextField.text != "" {
+        if emailTextField.text != "" && passwordTextField.text != "" {
             loginButton.isEnabled = true
             UIView.animate(withDuration: 0.3) {
                 self.loginButton.alpha = 1
@@ -78,14 +78,23 @@ class LoginViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
+    func saveUsersLoginData() {
+        let defaults = UserDefaults.standard
+        defaults.set(String(describing: emailTextField.text!), forKey: "email")
+        defaults.set(String(describing: passwordTextField.text!), forKey: "password")
+    }
+    
     // MARK: Actions
     
     @IBAction func loginButtonTapped() {
-        if let email = usernameTextField.text, let password = passwordTextField.text {
+        if let email = emailTextField.text, let password = passwordTextField.text {
             accounts = fetchRequestFromAccounts(context())
             for account in accounts {
-                if account.email == email && account.password == password {
+                if account.email.lowercased() == email.lowercased() && account.password == password {
                     print("success")
+                    let defaults = UserDefaults.standard
+                    defaults.set(email, forKey: "email")
+                    defaults.set(password, forKey: "password")
                 }
             }
         }

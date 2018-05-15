@@ -27,7 +27,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     lazy var managedObjectContext: NSManagedObjectContext = self.persistentContainer.viewContext
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        
+        let defaults = UserDefaults.standard
+        if let savedEmail = defaults.string(forKey: "email"), let savedPassword = defaults.string(forKey: "password") {
+            let accounts = fetchRequestFromAccounts(managedObjectContext)
+            for account in accounts {
+                if account.email == savedEmail && account.password == savedPassword {
+                    //FIXME: show user menu
+                    print("success in appDelegate")
+                    break
+                }
+            }
+        }
         return true
     }
 

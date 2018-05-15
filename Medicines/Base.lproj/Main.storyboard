@@ -85,10 +85,10 @@
                         <viewLayoutGuide key="safeArea" id="1wg-tJ-Hsy"/>
                     </view>
                     <connections>
+                        <outlet property="emailTextField" destination="d9f-ZQ-bDu" id="aSA-Ah-zYN"/>
                         <outlet property="loginButton" destination="VEJ-CU-jvk" id="q1k-7l-bDw"/>
                         <outlet property="passwordTextField" destination="TEH-bK-Zo1" id="5O6-3K-uCi"/>
                         <outlet property="registrationButton" destination="ZCH-ud-NPT" id="5Bc-pY-MR0"/>
-                        <outlet property="usernameTextField" destination="d9f-ZQ-bDu" id="aSA-Ah-zYN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ORA-Ta-jET" sceneMemberID="firstResponder"/>
