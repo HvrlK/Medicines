@@ -227,6 +227,9 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bmD-D8-5IQ">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                                     <state key="normal" title="Create Account"/>
+                                                    <connections>
+                                                        <action selector="createButtonTapped:" destination="lJN-fL-mRg" eventType="touchUpInside" id="fRV-Hq-01Y"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>

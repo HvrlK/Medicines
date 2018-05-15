@@ -31,6 +31,7 @@ class RegistrationTableViewController: UITableViewController {
         emailTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         passwordTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
         repeatPasswordField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
+        updateCreateButton()
     }
     
     func updateCreateButton() {
@@ -39,6 +40,24 @@ class RegistrationTableViewController: UITableViewController {
         } else {
             createButton.isEnabled = true
         }
+    }
+    
+    func showAlertWith(title: String, isSuccess: Bool = false) {
+        let alert = UIAlertController(
+            title: title,
+            message: nil,
+            preferredStyle: .alert
+        )
+        let closeAction = UIAlertAction(
+            title: "OK",
+            style: .cancel,
+            handler: { _ in
+                if isSuccess {
+                    self.dismiss(animated: true, completion: nil)
+                }
+        })
+        alert.addAction(closeAction)
+        present(alert, animated: true, completion: nil)
     }
     
     @objc func textFieldDidChange(_ textField: UITextField) {
@@ -52,7 +71,23 @@ class RegistrationTableViewController: UITableViewController {
     }
     
     @IBAction func createButtonTapped(_ sender: UIButton) {
-        
+        if passwordTextField.text == repeatPasswordField.text {
+            if let email = emailTextField.text, let password = passwordTextField.text {
+                let accounts = fetchRequestFromAccounts(context())
+                let emails = accounts.map { $0.email.lowercased() }
+                if !emails.contains(email.lowercased()) {
+                    let newUser = Account(context: context())
+                    newUser.email = email
+                    newUser.password = password
+                    saveContext(context())
+                    showAlertWith(title: NSLocalizedString("Your account has been successfully created", comment: "Registration - success"), isSuccess: true)
+                } else {
+                    showAlertWith(title: NSLocalizedString("This email is already in use", comment: "Registration error - email"))
+                }
+            }
+        } else {
+            showAlertWith(title: NSLocalizedString("Passwords are not the same", comment: "Registration error - passwords"))
+        }
     }
 
 }
@@ -67,6 +102,9 @@ extension RegistrationTableViewController: UITextFieldDelegate {
             nextField.becomeFirstResponder()
         } else {
             textField.resignFirstResponder()
+            if createButton.isEnabled {
+                createButtonTapped(createButton)
+            }
         }
         return true
     }

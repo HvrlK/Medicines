@@ -11,6 +11,10 @@ import CoreData
 
 class LoginViewController: UIViewController {
     
+    // MARK: - Properties
+    
+    var accounts = [Account]()
+    
     // MARK: - Outlets
     
     @IBOutlet weak var usernameTextField: UITextField!
@@ -74,16 +78,17 @@ class LoginViewController: UIViewController {
         present(alert, animated: true, completion: nil)
     }
     
-    func savePassword() {
-        let defaults = UserDefaults.standard
-        defaults.set(String(describing: usernameTextField.text!), forKey: "login")
-        defaults.set(String(describing: passwordTextField.text!), forKey: "password")
-    }
-    
     // MARK: Actions
     
     @IBAction func loginButtonTapped() {
-//        
+        if let email = usernameTextField.text, let password = passwordTextField.text {
+            accounts = fetchRequestFromAccounts(context())
+            for account in accounts {
+                if account.email == email && account.password == password {
+                    print("success")
+                }
+            }
+        }
     }
     
 }
