@@ -91,11 +91,10 @@ class LoginViewController: UIViewController {
             accounts = fetchRequestFromAccounts(context())
             for account in accounts {
                 if account.email.lowercased() == email.lowercased() && account.password == password {
-                    //FIXME: show user menu
-                    print("success")
                     let defaults = UserDefaults.standard
                     defaults.set(email, forKey: "email")
                     defaults.set(password, forKey: "password")
+                    appDelegate.window?.rootViewController = storyboard?.instantiateViewController(withIdentifier: "TabBarController")
                 }
             }
         }

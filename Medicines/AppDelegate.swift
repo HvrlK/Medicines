@@ -32,9 +32,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let accounts = fetchRequestFromAccounts(managedObjectContext)
             for account in accounts {
                 if account.email == savedEmail && account.password == savedPassword {
-                    //FIXME: show user menu
-                    print("success in appDelegate")
+                    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                    if let tabBarController = storyboard.instantiateViewController(withIdentifier: "TabBarController") as? UITabBarController {
+                    window?.rootViewController = tabBarController
                     break
+                    }
                 }
             }
         }
