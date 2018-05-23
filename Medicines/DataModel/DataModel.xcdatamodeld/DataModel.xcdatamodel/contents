@@ -4,7 +4,15 @@
         <attribute name="email" attributeType="String" syncable="YES"/>
         <attribute name="password" attributeType="String" syncable="YES"/>
     </entity>
+    <entity name="Medicine" representedClassName="Medicine" syncable="YES">
+        <attribute name="category" attributeType="String" syncable="YES"/>
+        <attribute name="descriptionOfMedicine" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="price" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="producer" attributeType="String" syncable="YES"/>
+    </entity>
     <elements>
         <element name="Account" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="Medicine" positionX="144" positionY="-0" width="128" height="118"/>
     </elements>
 </model>
