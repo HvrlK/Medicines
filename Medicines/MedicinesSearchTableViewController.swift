@@ -10,11 +10,16 @@ import UIKit
 
 class MedicinesSearchTableViewController: UITableViewController {
     
+    // MARK: - Properties
+    
     var medicines: [Medicine] {
         return fetchRequestFromMedicines(context())
     }
     var currentMedicines = [Medicine]()
+    var selectedMedicine: Medicine?
 
+    // MARK: - Methods
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         let searchController = UISearchController(searchResultsController: nil)
@@ -27,6 +32,14 @@ class MedicinesSearchTableViewController: UITableViewController {
 //        addMedicines()
     }
 
+    func passMedicine() {
+        if let tabBarControllers = tabBarController?.viewControllers, let navigationController = tabBarControllers[1] as? UINavigationController, let shoppingCart = navigationController.topViewController as? ShoppingCartTableViewController, let medicine = selectedMedicine {
+            shoppingCart.medicines.append(medicine)
+            shoppingCart.updateTotalLabel()
+            shoppingCart.tableView.reloadData()
+        }
+    }
+    
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -55,7 +68,8 @@ class MedicinesSearchTableViewController: UITableViewController {
             title: NSLocalizedString("Yes", comment: "Add medicine alert - yes action"),
             style: .default,
             handler: { _ in
-                //TODO: add to cart
+                self.selectedMedicine = self.currentMedicines[indexPath.row]
+                self.passMedicine()
         })
         let cancelAction = UIAlertAction(
         title: NSLocalizedString("Cancel", comment: "Add medicine alert - cancel action"),
@@ -69,12 +83,14 @@ class MedicinesSearchTableViewController: UITableViewController {
 
 }
 
+// MARK: - Extensions
+
 extension MedicinesSearchTableViewController: UISearchBarDelegate {
 
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if !searchText.isEmpty {
             currentMedicines = medicines.filter { medicine -> Bool in
-                medicine.name.lowercased().contains(searchText.lowercased()) || medicine.category.lowercased().contains(searchText.lowercased())
+                medicine.name.lowercased().hasPrefix(searchText.lowercased())
             }
         } else {
             currentMedicines = medicines
