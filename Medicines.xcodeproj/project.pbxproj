@@ -22,6 +22,7 @@
 		DD87811220B5816800C55E11 /* Medicine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811020B5816800C55E11 /* Medicine+CoreDataProperties.swift */; };
 		DD87811420B59F7500C55E11 /* ShoppingCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811320B59F7500C55E11 /* ShoppingCartTableViewController.swift */; };
 		DD87811620B59FA800C55E11 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811520B59FA800C55E11 /* CartTableViewCell.swift */; };
+		DD87811A20B6087100C55E11 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811920B6087100C55E11 /* ProfileTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		DD87811020B5816800C55E11 /* Medicine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medicine+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DD87811320B59F7500C55E11 /* ShoppingCartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewController.swift; sourceTree = "<group>"; };
 		DD87811520B59FA800C55E11 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		DD87811920B6087100C55E11 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				DD09BD4120AB8E38001912F3 /* DataModel */,
 				DD09BD2620AB7523001912F3 /* Main.storyboard */,
+				DD87811920B6087100C55E11 /* ProfileTableViewController.swift */,
 				DD87811320B59F7500C55E11 /* ShoppingCartTableViewController.swift */,
 				DD87810D20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift */,
 				DD09BD2220AB7523001912F3 /* AppDelegate.swift */,
@@ -181,6 +184,7 @@
 				DD09BD4320AB8E7E001912F3 /* Functions.swift in Sources */,
 				DD09BD3C20AB8DAA001912F3 /* DataModel.xcdatamodeld in Sources */,
 				DD87811120B5816800C55E11 /* Medicine+CoreDataClass.swift in Sources */,
+				DD87811A20B6087100C55E11 /* ProfileTableViewController.swift in Sources */,
 				DD87811220B5816800C55E11 /* Medicine+CoreDataProperties.swift in Sources */,
 				DD09BD3920AB7D4A001912F3 /* RegistrationTableViewController.swift in Sources */,
 				DD87811420B59F7500C55E11 /* ShoppingCartTableViewController.swift in Sources */,
