@@ -17,6 +17,9 @@
 		DD09BD3F20AB8E16001912F3 /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09BD3D20AB8E16001912F3 /* Account+CoreDataClass.swift */; };
 		DD09BD4020AB8E16001912F3 /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09BD3E20AB8E16001912F3 /* Account+CoreDataProperties.swift */; };
 		DD09BD4320AB8E7E001912F3 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09BD4220AB8E7E001912F3 /* Functions.swift */; };
+		DD87810E20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87810D20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift */; };
+		DD87811120B5816800C55E11 /* Medicine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87810F20B5816800C55E11 /* Medicine+CoreDataClass.swift */; };
+		DD87811220B5816800C55E11 /* Medicine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811020B5816800C55E11 /* Medicine+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		DD09BD3D20AB8E16001912F3 /* Account+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DD09BD3E20AB8E16001912F3 /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DD09BD4220AB8E7E001912F3 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		DD87810D20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesSearchTableViewController.swift; sourceTree = "<group>"; };
+		DD87810F20B5816800C55E11 /* Medicine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medicine+CoreDataClass.swift"; sourceTree = "<group>"; };
+		DD87811020B5816800C55E11 /* Medicine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medicine+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,7 @@
 			children = (
 				DD09BD4120AB8E38001912F3 /* DataModel */,
 				DD09BD2620AB7523001912F3 /* Main.storyboard */,
+				DD87810D20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift */,
 				DD09BD2220AB7523001912F3 /* AppDelegate.swift */,
 				DD09BD3620AB763C001912F3 /* LoginViewController.swift */,
 				DD09BD3820AB7D4A001912F3 /* RegistrationTableViewController.swift */,
@@ -80,6 +87,8 @@
 		DD09BD4120AB8E38001912F3 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				DD87810F20B5816800C55E11 /* Medicine+CoreDataClass.swift */,
+				DD87811020B5816800C55E11 /* Medicine+CoreDataProperties.swift */,
 				DD09BD3D20AB8E16001912F3 /* Account+CoreDataClass.swift */,
 				DD09BD3E20AB8E16001912F3 /* Account+CoreDataProperties.swift */,
 				DD09BD3A20AB8DAA001912F3 /* DataModel.xcdatamodeld */,
@@ -159,10 +168,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD09BD4020AB8E16001912F3 /* Account+CoreDataProperties.swift in Sources */,
+				DD87810E20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift in Sources */,
 				DD09BD3720AB763D001912F3 /* LoginViewController.swift in Sources */,
 				DD09BD3F20AB8E16001912F3 /* Account+CoreDataClass.swift in Sources */,
 				DD09BD4320AB8E7E001912F3 /* Functions.swift in Sources */,
 				DD09BD3C20AB8DAA001912F3 /* DataModel.xcdatamodeld in Sources */,
+				DD87811120B5816800C55E11 /* Medicine+CoreDataClass.swift in Sources */,
+				DD87811220B5816800C55E11 /* Medicine+CoreDataProperties.swift in Sources */,
 				DD09BD3920AB7D4A001912F3 /* RegistrationTableViewController.swift in Sources */,
 				DD09BD2320AB7523001912F3 /* AppDelegate.swift in Sources */,
 			);

@@ -91,6 +91,7 @@ class LoginViewController: UIViewController {
             accounts = fetchRequestFromAccounts(context())
             for account in accounts {
                 if account.email.lowercased() == email.lowercased() && account.password == password {
+                    //FIXME: show user menu
                     print("success")
                     let defaults = UserDefaults.standard
                     defaults.set(email, forKey: "email")

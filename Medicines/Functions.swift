@@ -23,6 +23,18 @@ func fetchRequestFromAccounts(_ context: NSManagedObjectContext) -> [Account] {
     
 }
 
+func fetchRequestFromMedicines(_ context: NSManagedObjectContext) -> [Medicine] {
+    let fetchRequest = NSFetchRequest<Medicine>()
+    fetchRequest.entity = Medicine.entity()
+    fetchRequest.sortDescriptors = [NSSortDescriptor(key: "name", ascending: true)]
+    do {
+        return try context.fetch(fetchRequest)
+    } catch {
+        fatalError("Fetch data error: \(error)")
+    }
+    
+}
+
 func context() -> NSManagedObjectContext {
     return appDelegate.managedObjectContext
 }
