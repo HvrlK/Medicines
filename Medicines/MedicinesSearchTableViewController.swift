@@ -53,32 +53,32 @@ class MedicinesSearchTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MedicinesCell", for: indexPath)
         cell.textLabel?.text = currentMedicines[indexPath.row].name
-        cell.detailTextLabel?.text = String(currentMedicines[indexPath.row].price)
+        cell.detailTextLabel?.text = currentMedicines[indexPath.row].price.description + " " + NSLocalizedString("$", comment: "Total label - currency")
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let alert = UIAlertController(
-            title: currentMedicines[indexPath.row].name,
-            message: NSLocalizedString("Do you want add this medicine to your shopping cart?", comment: "Add medicine alert - title"),
-            preferredStyle: .alert
-        )
-        let OKaction = UIAlertAction(
-            title: NSLocalizedString("Yes", comment: "Add medicine alert - yes action"),
-            style: .default,
-            handler: { _ in
-                self.selectedMedicine = self.currentMedicines[indexPath.row]
-                self.passMedicine()
-        })
-        let cancelAction = UIAlertAction(
-        title: NSLocalizedString("Cancel", comment: "Add medicine alert - cancel action"),
-        style: .cancel,
-        handler: nil
-        )
-        alert.addAction(OKaction)
-        alert.addAction(cancelAction)
-        present(alert, animated: true, completion: nil)
+    }
+    
+    // MARK: - Navigation
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "ShowDetail" {
+            if let detailViewController = segue.destination as? DetailViewController, let cell = sender as? UITableViewCell, let indexPath = tableView.indexPath(for: cell) {
+                detailViewController.modalPresentationStyle = .overFullScreen
+                detailViewController.medicine = medicines[indexPath.row]
+            }
+        }
+    }
+    
+    @IBAction func unwindSegueFromDetail(_ unwindSeque: UIStoryboardSegue) {
+        if unwindSeque.identifier == "AddToCart" {
+            if let detailViewController = unwindSeque.source as? DetailViewController {
+                selectedMedicine = detailViewController.medicine
+                passMedicine()
+            }
+        }
     }
 
 }

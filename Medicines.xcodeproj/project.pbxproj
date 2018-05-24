@@ -23,6 +23,8 @@
 		DD87811420B59F7500C55E11 /* ShoppingCartTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811320B59F7500C55E11 /* ShoppingCartTableViewController.swift */; };
 		DD87811620B59FA800C55E11 /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811520B59FA800C55E11 /* CartTableViewCell.swift */; };
 		DD87811A20B6087100C55E11 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811920B6087100C55E11 /* ProfileTableViewController.swift */; };
+		DD87811C20B707D100C55E11 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811B20B707D100C55E11 /* DetailViewController.swift */; };
+		DD87812A20B731B500C55E11 /* OutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87812920B731B500C55E11 /* OutAnimationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		DD87811320B59F7500C55E11 /* ShoppingCartTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartTableViewController.swift; sourceTree = "<group>"; };
 		DD87811520B59FA800C55E11 /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
 		DD87811920B6087100C55E11 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		DD87811B20B707D100C55E11 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DD87812920B731B500C55E11 /* OutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutAnimationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +80,10 @@
 		DD09BD2120AB7523001912F3 /* Medicines */ = {
 			isa = PBXGroup;
 			children = (
+				DD87812B20B734C600C55E11 /* Animation */,
 				DD09BD4120AB8E38001912F3 /* DataModel */,
 				DD09BD2620AB7523001912F3 /* Main.storyboard */,
+				DD87811B20B707D100C55E11 /* DetailViewController.swift */,
 				DD87811920B6087100C55E11 /* ProfileTableViewController.swift */,
 				DD87811320B59F7500C55E11 /* ShoppingCartTableViewController.swift */,
 				DD87810D20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift */,
@@ -103,6 +109,14 @@
 				DD09BD3A20AB8DAA001912F3 /* DataModel.xcdatamodeld */,
 			);
 			path = DataModel;
+			sourceTree = "<group>";
+		};
+		DD87812B20B734C600C55E11 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				DD87812920B731B500C55E11 /* OutAnimationController.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,10 +199,12 @@
 				DD09BD3C20AB8DAA001912F3 /* DataModel.xcdatamodeld in Sources */,
 				DD87811120B5816800C55E11 /* Medicine+CoreDataClass.swift in Sources */,
 				DD87811A20B6087100C55E11 /* ProfileTableViewController.swift in Sources */,
+				DD87812A20B731B500C55E11 /* OutAnimationController.swift in Sources */,
 				DD87811220B5816800C55E11 /* Medicine+CoreDataProperties.swift in Sources */,
 				DD09BD3920AB7D4A001912F3 /* RegistrationTableViewController.swift in Sources */,
 				DD87811420B59F7500C55E11 /* ShoppingCartTableViewController.swift in Sources */,
 				DD09BD2320AB7523001912F3 /* AppDelegate.swift in Sources */,
+				DD87811C20B707D100C55E11 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hvrlk.Medicines;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -360,7 +376,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = hvrlk.Medicines;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
