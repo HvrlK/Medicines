@@ -34,8 +34,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 if account.email == savedEmail && account.password == savedPassword {
                     let storyboard = UIStoryboard(name: "Main", bundle: nil)
                     if let tabBarController = storyboard.instantiateViewController(withIdentifier: "TabBarController") as? UITabBarController {
-                    window?.rootViewController = tabBarController
-                    break
+                        let profileViewController = (tabBarController.viewControllers![2] as! UINavigationController).topViewController as! ProfileTableViewController
+                        profileViewController.account = account
+                        window?.rootViewController = tabBarController
+                        break
                     }
                 }
             }

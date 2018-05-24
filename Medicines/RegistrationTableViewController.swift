@@ -14,6 +14,7 @@ class RegistrationTableViewController: UITableViewController {
     
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var repeatPasswordField: UITextField!
     @IBOutlet weak var createButton: UIButton!
@@ -25,6 +26,7 @@ class RegistrationTableViewController: UITableViewController {
         super.viewDidLoad()
         nameTextField.delegate = self
         emailTextField.delegate = self
+        phoneNumberTextField.delegate = self
         passwordTextField.delegate = self
         repeatPasswordField.delegate = self
         nameTextField.addTarget(self, action: #selector(textFieldDidChange(_:)), for: .editingChanged)
@@ -72,12 +74,14 @@ class RegistrationTableViewController: UITableViewController {
     
     @IBAction func createButtonTapped(_ sender: UIButton) {
         if passwordTextField.text == repeatPasswordField.text {
-            if let email = emailTextField.text, let password = passwordTextField.text {
+            if let email = emailTextField.text, let password = passwordTextField.text, let name = nameTextField.text, let phoneNumber = phoneNumberTextField.text {
                 let accounts = fetchRequestFromAccounts(context())
                 let emails = accounts.map { $0.email.lowercased() }
                 if !emails.contains(email.lowercased()) {
                     let newUser = Account(context: context())
+                    newUser.name = name
                     newUser.email = email
+                    newUser.phoneNumber = phoneNumber
                     newUser.password = password
                     saveContext(context())
                     showAlertWith(title: NSLocalizedString("Your account has been successfully created", comment: "Registration - success"), isSuccess: true)

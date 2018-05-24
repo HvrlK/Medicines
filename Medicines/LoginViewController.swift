@@ -89,13 +89,22 @@ class LoginViewController: UIViewController {
     @IBAction func loginButtonTapped() {
         if let email = emailTextField.text, let password = passwordTextField.text {
             accounts = fetchRequestFromAccounts(context())
+            var isPresentAlert = true
             for account in accounts {
                 if account.email.lowercased() == email.lowercased() && account.password == password {
                     let defaults = UserDefaults.standard
                     defaults.set(email, forKey: "email")
                     defaults.set(password, forKey: "password")
-                    appDelegate.window?.rootViewController = storyboard?.instantiateViewController(withIdentifier: "TabBarController")
+                    if let myTabBarController = storyboard?.instantiateViewController(withIdentifier: "TabBarController") as? UITabBarController {
+                        let profileViewController = (myTabBarController.viewControllers![2] as! UINavigationController).topViewController as! ProfileTableViewController
+                        profileViewController.account = account
+                        appDelegate.window?.rootViewController = myTabBarController
+                        isPresentAlert = false
+                    }
                 }
+            }
+            if isPresentAlert {
+                presentIncorrectDataAlert()
             }
         }
     }
