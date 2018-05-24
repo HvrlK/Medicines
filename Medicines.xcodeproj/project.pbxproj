@@ -26,6 +26,7 @@
 		DD87811C20B707D100C55E11 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811B20B707D100C55E11 /* DetailViewController.swift */; };
 		DD87812A20B731B500C55E11 /* OutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87812920B731B500C55E11 /* OutAnimationController.swift */; };
 		DD87812D20B73B9300C55E11 /* IllnessesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87812C20B73B9300C55E11 /* IllnessesTableViewController.swift */; };
+		DD87812F20B74D2200C55E11 /* ToOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87812E20B74D2200C55E11 /* ToOrderTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		DD87811B20B707D100C55E11 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DD87812920B731B500C55E11 /* OutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutAnimationController.swift; sourceTree = "<group>"; };
 		DD87812C20B73B9300C55E11 /* IllnessesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllnessesTableViewController.swift; sourceTree = "<group>"; };
+		DD87812E20B74D2200C55E11 /* ToOrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToOrderTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				DD87812B20B734C600C55E11 /* Animation */,
 				DD09BD4120AB8E38001912F3 /* DataModel */,
 				DD09BD2620AB7523001912F3 /* Main.storyboard */,
+				DD87812E20B74D2200C55E11 /* ToOrderTableViewController.swift */,
 				DD87812C20B73B9300C55E11 /* IllnessesTableViewController.swift */,
 				DD87811B20B707D100C55E11 /* DetailViewController.swift */,
 				DD87811920B6087100C55E11 /* ProfileTableViewController.swift */,
@@ -193,6 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD87812F20B74D2200C55E11 /* ToOrderTableViewController.swift in Sources */,
 				DD09BD4020AB8E16001912F3 /* Account+CoreDataProperties.swift in Sources */,
 				DD87810E20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift in Sources */,
 				DD09BD3720AB763D001912F3 /* LoginViewController.swift in Sources */,

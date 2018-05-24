@@ -35,8 +35,8 @@ class MedicinesSearchTableViewController: UITableViewController {
     func passMedicine() {
         if let tabBarControllers = tabBarController?.viewControllers, let navigationController = tabBarControllers[2] as? UINavigationController, let shoppingCart = navigationController.topViewController as? ShoppingCartTableViewController, let medicine = selectedMedicine {
             shoppingCart.medicines.append(medicine)
-            shoppingCart.updateTotalLabel()
             shoppingCart.tableView.reloadData()
+            shoppingCart.updateTotalLabel()
         }
     }
     

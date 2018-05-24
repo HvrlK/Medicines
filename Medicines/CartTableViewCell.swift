@@ -19,7 +19,7 @@ class CartTableViewCell: UITableViewCell {
     @IBOutlet weak var priceLabel: UILabel!
     
     weak var delegate: CartTableViewCellDelegate?
-    var number = 0
+    var number = 1
         
     @IBAction func stepperValueChanged(_ sender: UIStepper) {
         numberLabel.text = Int(sender.value).description
