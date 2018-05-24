@@ -28,7 +28,7 @@ class ShoppingCartTableViewController: UITableViewController {
     }
 
     func updateTotalLabel() {
-        tabBarController?.tabBar.items![1].badgeValue = medicines.isEmpty ? nil : medicines.count.description
+        tabBarController?.tabBar.items![2].badgeValue = medicines.isEmpty ? nil : medicines.count.description
         if medicines.isEmpty {
             totalLabel.text = NSLocalizedString("Empty yet", comment: "Total label - empty")
         } else {

@@ -25,6 +25,7 @@
 		DD87811A20B6087100C55E11 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811920B6087100C55E11 /* ProfileTableViewController.swift */; };
 		DD87811C20B707D100C55E11 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811B20B707D100C55E11 /* DetailViewController.swift */; };
 		DD87812A20B731B500C55E11 /* OutAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87812920B731B500C55E11 /* OutAnimationController.swift */; };
+		DD87812D20B73B9300C55E11 /* IllnessesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87812C20B73B9300C55E11 /* IllnessesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		DD87811920B6087100C55E11 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
 		DD87811B20B707D100C55E11 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		DD87812920B731B500C55E11 /* OutAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutAnimationController.swift; sourceTree = "<group>"; };
+		DD87812C20B73B9300C55E11 /* IllnessesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllnessesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				DD87812B20B734C600C55E11 /* Animation */,
 				DD09BD4120AB8E38001912F3 /* DataModel */,
 				DD09BD2620AB7523001912F3 /* Main.storyboard */,
+				DD87812C20B73B9300C55E11 /* IllnessesTableViewController.swift */,
 				DD87811B20B707D100C55E11 /* DetailViewController.swift */,
 				DD87811920B6087100C55E11 /* ProfileTableViewController.swift */,
 				DD87811320B59F7500C55E11 /* ShoppingCartTableViewController.swift */,
@@ -201,6 +204,7 @@
 				DD87811A20B6087100C55E11 /* ProfileTableViewController.swift in Sources */,
 				DD87812A20B731B500C55E11 /* OutAnimationController.swift in Sources */,
 				DD87811220B5816800C55E11 /* Medicine+CoreDataProperties.swift in Sources */,
+				DD87812D20B73B9300C55E11 /* IllnessesTableViewController.swift in Sources */,
 				DD09BD3920AB7D4A001912F3 /* RegistrationTableViewController.swift in Sources */,
 				DD87811420B59F7500C55E11 /* ShoppingCartTableViewController.swift in Sources */,
 				DD09BD2320AB7523001912F3 /* AppDelegate.swift in Sources */,

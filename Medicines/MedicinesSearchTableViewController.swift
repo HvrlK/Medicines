@@ -33,7 +33,7 @@ class MedicinesSearchTableViewController: UITableViewController {
     }
 
     func passMedicine() {
-        if let tabBarControllers = tabBarController?.viewControllers, let navigationController = tabBarControllers[1] as? UINavigationController, let shoppingCart = navigationController.topViewController as? ShoppingCartTableViewController, let medicine = selectedMedicine {
+        if let tabBarControllers = tabBarController?.viewControllers, let navigationController = tabBarControllers[2] as? UINavigationController, let shoppingCart = navigationController.topViewController as? ShoppingCartTableViewController, let medicine = selectedMedicine {
             shoppingCart.medicines.append(medicine)
             shoppingCart.updateTotalLabel()
             shoppingCart.tableView.reloadData()
@@ -146,6 +146,48 @@ extension MedicinesSearchTableViewController {
         medicine5.descriptionOfMedicine = "1 таблетка містить: вітаміну В1 (тіаміну гідрохлориду) 100 мг; вітаміну В6 (піридоксину гідрохлориду) 200 мг; вітаміну В12 (ціанокобаламіну) 0,2 мг"
         medicine5.producer = "Київський вітамінний завод"
         medicine5.price = 75.0
+        
+        let medicine6 = Medicine(context: context())
+        medicine6.name = "Евказолін Аква"
+        medicine6.category = "Краплі назальні"
+        medicine6.descriptionOfMedicine = "Прозора злегка жовтувата рідина із специфічним запахом.Засоби, що застосовуються при захворюваннях порожнини носа."
+        medicine6.producer = "ПАТ «Фармак»"
+        medicine6.price = 51.20
+        
+        let medicine7 = Medicine(context: context())
+        medicine7.name = "Ново-Пасит"
+        medicine7.category = "Розчин оральний"
+        medicine7.descriptionOfMedicine = "Снодійні та седативні засоби. 100 мл у флаконі; по 1 флакону разом з мірним ковпачком в коробці."
+        medicine7.producer = "Тева Чех Індастріз с.р.о"
+        medicine7.price = 76.50
+        
+        let medicine8 = Medicine(context: context())
+        medicine8.name = "Аспірин"
+        medicine8.category = "Таблетки, 500 мг"
+        medicine8.descriptionOfMedicine = "Круглі, плоскоциліндричні таблетки білого кольору, зі скошеними краями; на одному боці - вигравіруваний “байєровський хрест”, на іншому боці – напис “ASPIRIN 0,5” (для таблеток з вмістом ацетилсаліцилової кислоти 500 мг);"
+        medicine8.producer = "Байєр АГ/Bayer AG"
+        medicine8.price = 38.40
+        
+        let medicine9 = Medicine(context: context())
+        medicine9.name = "Тамипул"
+        medicine9.category = "Капсули"
+        medicine9.descriptionOfMedicine = "Комбінований лікарський засіб, дія якого зумовлена компонентами, що входять до його складу. Препарат чинить аналгезуючу (знеболювальну), протизапальну, жарознижувальну дії"
+        medicine9.producer = "АТ «Гріндекс»"
+        medicine9.price = 121.20
+        
+        let medicine10 = Medicine(context: context())
+        medicine10.name = "Пантенол Аерозоль"
+        medicine10.category = "Піна нашкірна"
+        medicine10.descriptionOfMedicine = "Мазь д-Пантенолзастосовують місцево при порушеннях цілісності шкірних покривів, спричинених механічними ушкодженнями або хірургічними втручаннями, при опіках різного походження, при запальних процесах шкіри, а також для обробки сухої шкіри"
+        medicine10.producer = "ТОВ «Мікрофарм»"
+        medicine10.price = 48.90
+        
+        let medicine11 = Medicine(context: context())
+        medicine11.name = "Марвелон"
+        medicine11.category = "Таблетки"
+        medicine11.descriptionOfMedicine = "Гормональні контрацептиви для системного застосування. Естрогени і гестагени у фіксованих комбінаціях"
+        medicine11.producer = "Н.В.Органон."
+        medicine11.price = 839.15
         
         saveContext(context())
     }

@@ -96,7 +96,7 @@ class LoginViewController: UIViewController {
                     defaults.set(email, forKey: "email")
                     defaults.set(password, forKey: "password")
                     if let myTabBarController = storyboard?.instantiateViewController(withIdentifier: "TabBarController") as? UITabBarController {
-                        let profileViewController = (myTabBarController.viewControllers![2] as! UINavigationController).topViewController as! ProfileTableViewController
+                        let profileViewController = (myTabBarController.viewControllers![3] as! UINavigationController).topViewController as! ProfileTableViewController
                         profileViewController.account = account
                         appDelegate.window?.rootViewController = myTabBarController
                         isPresentAlert = false
