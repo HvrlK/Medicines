@@ -1,0 +1,192 @@
+
+/* Class = "UITextField"; placeholder = "Enter new email"; ObjectID = "0qC-wP-aYM"; */
+"0qC-wP-aYM.placeholder" = "Enter new email";
+
+/* Class = "UILabel"; text = "Name goes here"; ObjectID = "0uz-Tz-uV7"; */
+"0uz-Tz-uV7.text" = "Name goes here";
+
+/* Class = "UINavigationItem"; title = "Medicines"; ObjectID = "3To-y3-Jv8"; */
+"3To-y3-Jv8.title" = "Medicines";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "48R-ja-MeM"; */
+"48R-ja-MeM.text" = "Description";
+
+/* Class = "UITabBarItem"; title = "Medicines"; ObjectID = "4b2-Nx-qcR"; */
+"4b2-Nx-qcR.title" = "Medicines";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "5gE-Gi-gAG"; */
+"5gE-Gi-gAG.headerTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = "Add To Cart"; ObjectID = "7SO-Pd-DNQ"; */
+"7SO-Pd-DNQ.normalTitle" = "Add To Cart";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "7al-42-GVs"; */
+"7al-42-GVs.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "7hC-kY-b32"; */
+"7hC-kY-b32.placeholder" = "Password";
+
+/* Class = "UITabBarItem"; title = "Illnesses"; ObjectID = "83c-Y5-0kq"; */
+"83c-Y5-0kq.title" = "Illnesses";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "88t-7B-cCT"; */
+"88t-7B-cCT.text" = "0.00";
+
+/* Class = "UITableViewSection"; headerTitle = "Enter your name"; ObjectID = "8Vk-w1-UhS"; */
+"8Vk-w1-UhS.headerTitle" = "Enter your name";
+
+/* Class = "UITableViewSection"; headerTitle = " Repeat your password"; ObjectID = "8e2-xU-eQa"; */
+"8e2-xU-eQa.headerTitle" = " Repeat your password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "A9r-zB-srp"; */
+"A9r-zB-srp.placeholder" = "Password";
+
+/* Class = "UITableViewSection"; headerTitle = " Enter your phone number"; ObjectID = "AKZ-LV-o3B"; */
+"AKZ-LV-o3B.headerTitle" = " Enter your phone number";
+
+/* Class = "UITableViewSection"; headerTitle = "Enter your password"; ObjectID = "E5v-Dv-pdO"; */
+"E5v-Dv-pdO.headerTitle" = "Enter your password";
+
+/* Class = "UIButton"; normalTitle = "Change Email"; ObjectID = "ELm-iG-HcX"; */
+"ELm-iG-HcX.normalTitle" = "Change Email";
+
+/* Class = "UITextField"; placeholder = "Enter new password"; ObjectID = "EoN-Bf-PeZ"; */
+"EoN-Bf-PeZ.placeholder" = "Enter new password";
+
+/* Class = "UINavigationItem"; title = "Shopping Cart"; ObjectID = "GDq-yo-re9"; */
+"GDq-yo-re9.title" = "Shopping Cart";
+
+/* Class = "UIButton"; normalTitle = "Change Phone Number"; ObjectID = "GjM-xP-wzT"; */
+"GjM-xP-wzT.normalTitle" = "Change Phone Number";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "KAH-aS-eLq"; */
+"KAH-aS-eLq.text" = "Registration";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "NPm-1v-BR3"; */
+"NPm-1v-BR3.text" = "Price:";
+
+/* Class = "UILabel"; text = "Producer"; ObjectID = "NcK-aV-bGT"; */
+"NcK-aV-bGT.text" = "Producer";
+
+/* Class = "UITableViewSection"; headerTitle = "Date and time"; ObjectID = "Or9-PM-e3M"; */
+"Or9-PM-e3M.headerTitle" = "Date and time";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "PL6-TK-yK4"; */
+"PL6-TK-yK4.placeholder" = "Email";
+
+/* Class = "UITableViewSection"; headerTitle = "Street"; ObjectID = "RAg-sU-XDg"; */
+"RAg-sU-XDg.headerTitle" = "Street";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Spb-MT-6nx"; */
+"Spb-MT-6nx.text" = "1";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "TEH-bK-Zo1"; */
+"TEH-bK-Zo1.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Medicines 24/7"; ObjectID = "UjI-aZ-8eV"; */
+"UjI-aZ-8eV.text" = "Medicines 24/7";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "VEJ-CU-jvk"; */
+"VEJ-CU-jvk.normalTitle" = "Login";
+
+/* Class = "UITextField"; placeholder = "Phone number"; ObjectID = "VGs-wE-wQC"; */
+"VGs-wE-wQC.placeholder" = "Phone number";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "XkL-xf-y6P"; */
+"XkL-xf-y6P.title" = "Profile";
+
+/* Class = "UITableViewSection"; headerTitle = "House number / apartment"; ObjectID = "YtD-XA-3vx"; */
+"YtD-XA-3vx.headerTitle" = "House number / apartment";
+
+/* Class = "UIButton"; normalTitle = "Registration"; ObjectID = "ZCH-ud-NPT"; */
+"ZCH-ud-NPT.normalTitle" = "Registration";
+
+/* Class = "UITableViewSection"; headerTitle = "Finish"; ObjectID = "abg-rR-T5P"; */
+"abg-rR-T5P.headerTitle" = " ";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "bBI-j6-wpW"; */
+"bBI-j6-wpW.headerTitle" = " ";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "bNk-Dd-wbf"; */
+"bNk-Dd-wbf.title" = "Cart";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "bmD-D8-5IQ"; */
+"bmD-D8-5IQ.normalTitle" = "Create Account";
+
+/* Class = "UINavigationItem"; title = "My Profile"; ObjectID = "cPF-Z8-ixr"; */
+"cPF-Z8-ixr.title" = "My Profile";
+
+/* Class = "UILabel"; text = "Phone number"; ObjectID = "ch3-8f-kWE"; */
+"ch3-8f-kWE.text" = "Phone number";
+
+/* Class = "UILabel"; text = "By Credit Card"; ObjectID = "cjK-2n-oLQ"; */
+"cjK-2n-oLQ.text" = "By Credit Card";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "d9f-ZQ-bDu"; */
+"d9f-ZQ-bDu.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "dxD-Hm-XDq"; */
+"dxD-Hm-XDq.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ecR-eB-5xN"; */
+"ecR-eB-5xN.normalTitle" = "Cancel";
+
+/* Class = "UITableViewSection"; headerTitle = "Comment"; ObjectID = "fC1-e4-KUY"; */
+"fC1-e4-KUY.headerTitle" = "Comment";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "ga8-o1-fkO"; */
+"ga8-o1-fkO.text" = "$";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "iea-0p-Fc5"; */
+"iea-0p-Fc5.text" = "Name";
+
+/* Class = "UITableViewSection"; headerTitle = "Enter your email"; ObjectID = "itl-k1-cRN"; */
+"itl-k1-cRN.headerTitle" = "Enter your email";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "kUJ-dF-4ha"; */
+"kUJ-dF-4ha.text" = "Detail";
+
+/* Class = "UILabel"; text = "Total Price: 99.99"; ObjectID = "kwT-TA-f7f"; */
+"kwT-TA-f7f.text" = "Total Price: 99.99";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "lJj-5H-Fxl"; */
+"lJj-5H-Fxl.text" = "Name";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "mGz-oC-Dff"; */
+"mGz-oC-Dff.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "mLP-4q-ThW"; */
+"mLP-4q-ThW.text" = "Category";
+
+/* Class = "UILabel"; text = "Number:"; ObjectID = "nSE-tC-hhl"; */
+"nSE-tC-hhl.text" = "Number:";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "nZv-cW-qIl"; */
+"nZv-cW-qIl.text" = "Price";
+
+/* Class = "UITextField"; placeholder = "Enter new phone number"; ObjectID = "nnf-jT-umb"; */
+"nnf-jT-umb.placeholder" = "Enter new phone number";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "oQf-P2-2dQ"; */
+"oQf-P2-2dQ.headerTitle" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Exit"; ObjectID = "oc4-WL-9wa"; */
+"oc4-WL-9wa.title" = "Exit";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oqp-6O-evj"; */
+"oqp-6O-evj.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Repeat password"; ObjectID = "qhj-NQ-uuI"; */
+"qhj-NQ-uuI.placeholder" = "Repeat password";
+
+/* Class = "UIBarButtonItem"; title = "Order"; ObjectID = "qig-Ml-GJT"; */
+"qig-Ml-GJT.title" = "Order";
+
+/* Class = "UIButton"; normalTitle = "Change Password"; ObjectID = "tzF-tr-Wfj"; */
+"tzF-tr-Wfj.normalTitle" = "Change Password";
+
+/* Class = "UITableViewSection"; headerTitle = "Cash / Credit Card"; ObjectID = "wkK-fe-6LE"; */
+"wkK-fe-6LE.headerTitle" = "Cash / Credit Card";
+
+/* Class = "UINavigationItem"; title = "Illnesses"; ObjectID = "xPU-TM-Lpy"; */
+"xPU-TM-Lpy.title" = "Illnesses";

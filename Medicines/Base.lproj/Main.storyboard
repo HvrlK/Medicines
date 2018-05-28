@@ -67,7 +67,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="logo" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Sr-tY-FcG">
-                                <rect key="frame" x="128" y="97" width="119" height="120"/>
+                                <rect key="frame" x="127.5" y="97" width="120" height="120"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="5Sr-tY-FcG" secondAttribute="height" multiplier="1:1" id="GDt-oh-c17"/>
                                     <constraint firstAttribute="height" constant="120" id="qzJ-zU-OiE"/>
@@ -334,7 +334,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Credit Card" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjK-2n-oLQ">
-                                                    <rect key="frame" x="16" y="21" width="127" height="24"/>
+                                                    <rect key="frame" x="16" y="21" width="278" height="24"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -348,6 +348,7 @@
                                                 <constraint firstItem="cjK-2n-oLQ" firstAttribute="centerY" secondItem="9xG-vN-7bT" secondAttribute="centerY" id="UV2-4f-vJO"/>
                                                 <constraint firstItem="cjK-2n-oLQ" firstAttribute="leading" secondItem="9xG-vN-7bT" secondAttribute="leadingMargin" id="jp6-cW-P2o"/>
                                                 <constraint firstItem="fCm-jx-FJj" firstAttribute="centerY" secondItem="9xG-vN-7bT" secondAttribute="centerY" id="wND-51-pIh"/>
+                                                <constraint firstItem="fCm-jx-FJj" firstAttribute="leading" secondItem="cjK-2n-oLQ" secondAttribute="trailing" constant="16" id="yIE-Cu-6vZ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -405,7 +406,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" accessoryType="detailButton" indentationWidth="10" reuseIdentifier="IllnessCell" textLabel="7al-42-GVs" style="IBUITableViewCellStyleDefault" id="yTE-ma-aNT">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="detailButton" indentationWidth="10" reuseIdentifier="IllnessCell" textLabel="7al-42-GVs" style="IBUITableViewCellStyleDefault" id="yTE-ma-aNT">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yTE-ma-aNT" id="T9a-qI-hf6">
@@ -438,7 +439,6 @@
         <!--Illnesses-->
         <scene sceneID="C9o-y6-R0C">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="mZZ-0G-4Qv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController id="XxG-YX-VDt" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Illnesses" id="83c-Y5-0kq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Gbg-e7-3hb">
@@ -449,6 +449,7 @@
                         <segue destination="9eU-8c-Xzu" kind="relationship" relationship="rootViewController" id="LIO-kZ-Rx2"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZZ-0G-4Qv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1430" y="1071"/>
         </scene>
@@ -744,7 +745,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Finish" id="abg-rR-T5P">
+                            <tableViewSection headerTitle=" " id="abg-rR-T5P">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="NK0-2R-l2R">
                                         <rect key="frame" x="0.0" y="461" width="375" height="44"/>
@@ -1012,7 +1013,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjM-xP-wzT">
-                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                                     <state key="normal" title="Change Phone Number"/>
                                                     <connections>
@@ -1036,7 +1037,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter new phone number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nnf-jT-umb">
-                                                    <rect key="frame" x="16" y="8" width="288" height="43.5"/>
+                                                    <rect key="frame" x="16" y="8" width="343" height="43.5"/>
                                                     <nil key="textColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <textInputTraits key="textInputTraits"/>
@@ -1092,9 +1093,8 @@
         <!--Medicines-->
         <scene sceneID="QLZ-kJ-cF5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="a3I-vz-w70" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KAS-X9-u3S" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Medicines" id="4b2-Nx-qcR"/>
+                    <tabBarItem key="tabBarItem" title="Medicines" image="medicineButton" id="4b2-Nx-qcR"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="PwD-Zp-mrx">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
@@ -1105,6 +1105,7 @@
                         <segue destination="dna-aR-K27" kind="relationship" relationship="rootViewController" id="abs-gO-f7k"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3I-vz-w70" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2376.8000000000002" y="-345.87706146926541"/>
         </scene>
@@ -1151,6 +1152,7 @@
         <image name="PriceButton" width="11" height="24"/>
         <image name="cart" width="25" height="25"/>
         <image name="logo" width="233" height="228"/>
+        <image name="medicineButton" width="25" height="25"/>
         <image name="profile" width="25" height="25"/>
     </resources>
 </document>

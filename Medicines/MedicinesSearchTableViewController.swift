@@ -28,8 +28,10 @@ class MedicinesSearchTableViewController: UITableViewController {
         searchController.dimsBackgroundDuringPresentation = false
         navigationItem.searchController = searchController
         navigationItem.hidesSearchBarWhenScrolling = false
+        if medicines.isEmpty {
+            addMedicines()
+        }
         currentMedicines = medicines
-//        addMedicines()
     }
 
     func passMedicine() {

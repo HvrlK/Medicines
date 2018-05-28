@@ -1,0 +1,192 @@
+
+/* Class = "UITextField"; placeholder = "Enter new email"; ObjectID = "0qC-wP-aYM"; */
+"0qC-wP-aYM.placeholder" = "Введіть нову електронну адресу";
+
+/* Class = "UILabel"; text = "Name goes here"; ObjectID = "0uz-Tz-uV7"; */
+"0uz-Tz-uV7.text" = "Name goes here";
+
+/* Class = "UINavigationItem"; title = "Medicines"; ObjectID = "3To-y3-Jv8"; */
+"3To-y3-Jv8.title" = "Ліки";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "48R-ja-MeM"; */
+"48R-ja-MeM.text" = "Опис";
+
+/* Class = "UITabBarItem"; title = "Medicines"; ObjectID = "4b2-Nx-qcR"; */
+"4b2-Nx-qcR.title" = "Ліки";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "5gE-Gi-gAG"; */
+"5gE-Gi-gAG.headerTitle" = " ";
+
+/* Class = "UIButton"; normalTitle = "Add To Cart"; ObjectID = "7SO-Pd-DNQ"; */
+"7SO-Pd-DNQ.normalTitle" = "Додати в кошик";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "7al-42-GVs"; */
+"7al-42-GVs.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "7hC-kY-b32"; */
+"7hC-kY-b32.placeholder" = "Пароль";
+
+/* Class = "UITabBarItem"; title = "Illnesses"; ObjectID = "83c-Y5-0kq"; */
+"83c-Y5-0kq.title" = "Хвороби";
+
+/* Class = "UILabel"; text = "0.00"; ObjectID = "88t-7B-cCT"; */
+"88t-7B-cCT.text" = "0.00";
+
+/* Class = "UITableViewSection"; headerTitle = "Enter your name"; ObjectID = "8Vk-w1-UhS"; */
+"8Vk-w1-UhS.headerTitle" = "Введіть своє ім'я";
+
+/* Class = "UITableViewSection"; headerTitle = " Repeat your password"; ObjectID = "8e2-xU-eQa"; */
+"8e2-xU-eQa.headerTitle" = " Повторіть пароль";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "A9r-zB-srp"; */
+"A9r-zB-srp.placeholder" = "Пароль";
+
+/* Class = "UITableViewSection"; headerTitle = " Enter your phone number"; ObjectID = "AKZ-LV-o3B"; */
+"AKZ-LV-o3B.headerTitle" = " Введіть мобільний номер";
+
+/* Class = "UITableViewSection"; headerTitle = "Enter your password"; ObjectID = "E5v-Dv-pdO"; */
+"E5v-Dv-pdO.headerTitle" = "Введіть пароль";
+
+/* Class = "UIButton"; normalTitle = "Change Email"; ObjectID = "ELm-iG-HcX"; */
+"ELm-iG-HcX.normalTitle" = "Змінити електронну адресу";
+
+/* Class = "UITextField"; placeholder = "Enter new password"; ObjectID = "EoN-Bf-PeZ"; */
+"EoN-Bf-PeZ.placeholder" = "Введіть новий пароль";
+
+/* Class = "UINavigationItem"; title = "Shopping Cart"; ObjectID = "GDq-yo-re9"; */
+"GDq-yo-re9.title" = "Кошик";
+
+/* Class = "UIButton"; normalTitle = "Change Phone Number"; ObjectID = "GjM-xP-wzT"; */
+"GjM-xP-wzT.normalTitle" = "Змінити мобільний номер";
+
+/* Class = "UILabel"; text = "Registration"; ObjectID = "KAH-aS-eLq"; */
+"KAH-aS-eLq.text" = "Реєстрація";
+
+/* Class = "UILabel"; text = "Price:"; ObjectID = "NPm-1v-BR3"; */
+"NPm-1v-BR3.text" = "Ціна:";
+
+/* Class = "UILabel"; text = "Producer"; ObjectID = "NcK-aV-bGT"; */
+"NcK-aV-bGT.text" = "Виробник";
+
+/* Class = "UITableViewSection"; headerTitle = "Date and time"; ObjectID = "Or9-PM-e3M"; */
+"Or9-PM-e3M.headerTitle" = "Дата та час";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "PL6-TK-yK4"; */
+"PL6-TK-yK4.placeholder" = "Електронна адреса";
+
+/* Class = "UITableViewSection"; headerTitle = "Street"; ObjectID = "RAg-sU-XDg"; */
+"RAg-sU-XDg.headerTitle" = "Вулиця";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "Spb-MT-6nx"; */
+"Spb-MT-6nx.text" = "1";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "TEH-bK-Zo1"; */
+"TEH-bK-Zo1.placeholder" = "Пароль";
+
+/* Class = "UILabel"; text = "Medicines 24/7"; ObjectID = "UjI-aZ-8eV"; */
+"UjI-aZ-8eV.text" = "Ліки 24/7";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "VEJ-CU-jvk"; */
+"VEJ-CU-jvk.normalTitle" = "Ввійти";
+
+/* Class = "UITextField"; placeholder = "Phone number"; ObjectID = "VGs-wE-wQC"; */
+"VGs-wE-wQC.placeholder" = "Мобільний номер";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "XkL-xf-y6P"; */
+"XkL-xf-y6P.title" = "Профіль";
+
+/* Class = "UITableViewSection"; headerTitle = "House number / apartment"; ObjectID = "YtD-XA-3vx"; */
+"YtD-XA-3vx.headerTitle" = "Номер будинку / квартири";
+
+/* Class = "UIButton"; normalTitle = "Registration"; ObjectID = "ZCH-ud-NPT"; */
+"ZCH-ud-NPT.normalTitle" = "Реєстрація";
+
+/* Class = "UITableViewSection"; headerTitle = "Finish"; ObjectID = "abg-rR-T5P"; */
+"abg-rR-T5P.headerTitle" = " ";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "bBI-j6-wpW"; */
+"bBI-j6-wpW.headerTitle" = " ";
+
+/* Class = "UITabBarItem"; title = "Cart"; ObjectID = "bNk-Dd-wbf"; */
+"bNk-Dd-wbf.title" = "Кошик";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "bmD-D8-5IQ"; */
+"bmD-D8-5IQ.normalTitle" = "Створити акаунт";
+
+/* Class = "UINavigationItem"; title = "My Profile"; ObjectID = "cPF-Z8-ixr"; */
+"cPF-Z8-ixr.title" = "Мій профіль";
+
+/* Class = "UILabel"; text = "Phone number"; ObjectID = "ch3-8f-kWE"; */
+"ch3-8f-kWE.text" = "Мобільний номер";
+
+/* Class = "UILabel"; text = "By Credit Card"; ObjectID = "cjK-2n-oLQ"; */
+"cjK-2n-oLQ.text" = "Кредитна картка";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "d9f-ZQ-bDu"; */
+"d9f-ZQ-bDu.placeholder" = "Електронна адреса";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "dxD-Hm-XDq"; */
+"dxD-Hm-XDq.text" = "Електронна адреса";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "ecR-eB-5xN"; */
+"ecR-eB-5xN.normalTitle" = "Скасувати";
+
+/* Class = "UITableViewSection"; headerTitle = "Comment"; ObjectID = "fC1-e4-KUY"; */
+"fC1-e4-KUY.headerTitle" = "Коментар";
+
+/* Class = "UILabel"; text = "$"; ObjectID = "ga8-o1-fkO"; */
+"ga8-o1-fkO.text" = "грн";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "iea-0p-Fc5"; */
+"iea-0p-Fc5.text" = "Назва";
+
+/* Class = "UITableViewSection"; headerTitle = "Enter your email"; ObjectID = "itl-k1-cRN"; */
+"itl-k1-cRN.headerTitle" = "Введіть електронну адресу";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "kUJ-dF-4ha"; */
+"kUJ-dF-4ha.text" = "Детально";
+
+/* Class = "UILabel"; text = "Total Price: 99.99"; ObjectID = "kwT-TA-f7f"; */
+"kwT-TA-f7f.text" = "Загальна сума: 99.99";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "lJj-5H-Fxl"; */
+"lJj-5H-Fxl.text" = "Назва";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "mGz-oC-Dff"; */
+"mGz-oC-Dff.placeholder" = "Назва";
+
+/* Class = "UILabel"; text = "Category"; ObjectID = "mLP-4q-ThW"; */
+"mLP-4q-ThW.text" = "Категорія";
+
+/* Class = "UILabel"; text = "Number:"; ObjectID = "nSE-tC-hhl"; */
+"nSE-tC-hhl.text" = "К-сть:";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "nZv-cW-qIl"; */
+"nZv-cW-qIl.text" = "Ціна";
+
+/* Class = "UITextField"; placeholder = "Enter new phone number"; ObjectID = "nnf-jT-umb"; */
+"nnf-jT-umb.placeholder" = "Введіть новий мобільний номер";
+
+/* Class = "UITableViewSection"; headerTitle = " "; ObjectID = "oQf-P2-2dQ"; */
+"oQf-P2-2dQ.headerTitle" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Exit"; ObjectID = "oc4-WL-9wa"; */
+"oc4-WL-9wa.title" = "Вийти";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "oqp-6O-evj"; */
+"oqp-6O-evj.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Repeat password"; ObjectID = "qhj-NQ-uuI"; */
+"qhj-NQ-uuI.placeholder" = "Повторіть пароль";
+
+/* Class = "UIBarButtonItem"; title = "Order"; ObjectID = "qig-Ml-GJT"; */
+"qig-Ml-GJT.title" = "Замовити";
+
+/* Class = "UIButton"; normalTitle = "Change Password"; ObjectID = "tzF-tr-Wfj"; */
+"tzF-tr-Wfj.normalTitle" = "Змінити пароль";
+
+/* Class = "UITableViewSection"; headerTitle = "Cash / Credit Card"; ObjectID = "wkK-fe-6LE"; */
+"wkK-fe-6LE.headerTitle" = "Готівка / Кредитна картка";
+
+/* Class = "UINavigationItem"; title = "Illnesses"; ObjectID = "xPU-TM-Lpy"; */
+"xPU-TM-Lpy.title" = "Хвороби";

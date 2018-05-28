@@ -17,6 +17,7 @@
 		DD09BD3F20AB8E16001912F3 /* Account+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09BD3D20AB8E16001912F3 /* Account+CoreDataClass.swift */; };
 		DD09BD4020AB8E16001912F3 /* Account+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09BD3E20AB8E16001912F3 /* Account+CoreDataProperties.swift */; };
 		DD09BD4320AB8E7E001912F3 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09BD4220AB8E7E001912F3 /* Functions.swift */; };
+		DD5A857920BBFCA4006B0263 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD5A857720BBFCA3006B0263 /* Localizable.strings */; };
 		DD87810E20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87810D20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift */; };
 		DD87811120B5816800C55E11 /* Medicine+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87810F20B5816800C55E11 /* Medicine+CoreDataClass.swift */; };
 		DD87811220B5816800C55E11 /* Medicine+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD87811020B5816800C55E11 /* Medicine+CoreDataProperties.swift */; };
@@ -42,6 +43,11 @@
 		DD09BD3D20AB8E16001912F3 /* Account+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DD09BD3E20AB8E16001912F3 /* Account+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Account+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		DD09BD4220AB8E7E001912F3 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		DD5A856E20BBF715006B0263 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DD5A857420BBF776006B0263 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Main.strings; sourceTree = "<group>"; };
+		DD5A857620BBF786006B0263 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		DD5A857820BBFCA3006B0263 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DD5A857A20BBFCA8006B0263 /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DD87810D20B57D8A00C55E11 /* MedicinesSearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicinesSearchTableViewController.swift; sourceTree = "<group>"; };
 		DD87810F20B5816800C55E11 /* Medicine+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medicine+CoreDataClass.swift"; sourceTree = "<group>"; };
 		DD87811020B5816800C55E11 /* Medicine+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medicine+CoreDataProperties.swift"; sourceTree = "<group>"; };
@@ -98,6 +104,7 @@
 				DD09BD3820AB7D4A001912F3 /* RegistrationTableViewController.swift */,
 				DD87811520B59FA800C55E11 /* CartTableViewCell.swift */,
 				DD09BD4220AB8E7E001912F3 /* Functions.swift */,
+				DD5A857720BBFCA3006B0263 /* Localizable.strings */,
 				DD09BD2920AB7523001912F3 /* Assets.xcassets */,
 				DD09BD2B20AB7523001912F3 /* LaunchScreen.storyboard */,
 				DD09BD2E20AB7523001912F3 /* Info.plist */,
@@ -167,6 +174,7 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
 			);
 			mainGroup = DD09BD1620AB7523001912F3;
 			productRefGroup = DD09BD2020AB7523001912F3 /* Products */;
@@ -184,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD09BD2D20AB7523001912F3 /* LaunchScreen.storyboard in Resources */,
+				DD5A857920BBFCA4006B0263 /* Localizable.strings in Resources */,
 				DD09BD2A20AB7523001912F3 /* Assets.xcassets in Resources */,
 				DD09BD2820AB7523001912F3 /* Main.storyboard in Resources */,
 			);
@@ -223,6 +232,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD09BD2720AB7523001912F3 /* Base */,
+				DD5A857420BBF776006B0263 /* uk */,
+				DD5A857620BBF786006B0263 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -231,8 +242,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				DD09BD2C20AB7523001912F3 /* Base */,
+				DD5A856E20BBF715006B0263 /* uk */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DD5A857720BBFCA3006B0263 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD5A857820BBFCA3006B0263 /* en */,
+				DD5A857A20BBFCA8006B0263 /* uk */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -242,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -302,6 +324,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
