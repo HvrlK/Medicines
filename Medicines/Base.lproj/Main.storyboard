@@ -104,7 +104,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ybH-L9-OKa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="XxG-YX-VDt" kind="relationship" relationship="viewControllers" id="fce-mq-7tF"/>
@@ -440,7 +439,7 @@
         <scene sceneID="C9o-y6-R0C">
             <objects>
                 <navigationController id="XxG-YX-VDt" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Illnesses" id="83c-Y5-0kq"/>
+                    <tabBarItem key="tabBarItem" title="Illnesses" image="illnesses" id="83c-Y5-0kq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" largeTitles="YES" id="Gbg-e7-3hb">
                         <rect key="frame" x="0.0" y="20" width="375" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1151,6 +1150,7 @@
     <resources>
         <image name="PriceButton" width="11" height="24"/>
         <image name="cart" width="25" height="25"/>
+        <image name="illnesses" width="25" height="25"/>
         <image name="logo" width="233" height="228"/>
         <image name="medicineButton" width="25" height="25"/>
         <image name="profile" width="25" height="25"/>
